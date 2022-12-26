@@ -1,5 +1,5 @@
-const { Type } = require("@sinclair/typebox");
-const Ajv = require("ajv");
+import Ajv from "ajv";
+import { Type } from "@sinclair/typebox";
 
 describe("Schema 생성", () => {
   const schema = Type.Object({

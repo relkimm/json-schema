@@ -1,4 +1,4 @@
-const Ajv = require("ajv");
+import Ajv from "ajv";
 
 describe("JSON 데이터 유효성 검사", () => {
   const ajv = new Ajv();
